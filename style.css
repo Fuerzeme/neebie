@@ -1,0 +1,136 @@
+html, body {
+margin: 0;
+padding: 0
+}
+
+
+.header {
+    background-color: #fff;
+    height:  65px;
+    text-align: left;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.nav li {
+   text-decoration: none;
+   color: #666666;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 12px;
+   padding: 0 35px;
+   display: inline-block;
+}
+
+
+.jumbotron {
+   background: url(img/home_leaf.jpg) no-repeat center center;
+        background-size: cover;
+   height: 500px;
+}
+
+.main {
+  position: relative;
+  top: 200px;
+  color: #bcb1b1;
+  text-align: left;
+}
+
+.main h1 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 90px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  }
+
+.main p {
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 25px
+}
+
+#box {
+    background-color: #ffbb00;
+  border-radius: 1px;
+  padding: 15px;
+    margin-left: 0;
+    margin-right: 600px;
+        text-align: right;
+    opacity: 0.6
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 280px;
+}
+
+.supporting .col{
+  float: left;
+  width: 45%;
+  text-align: center;
+}
+
+.supporting h2 {
+  font-family: Helvetica;
+  font-size: 25px;
+  font-weight: 80;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.supporting p {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 100;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.supporting .button {
+  background-color: #ffbb00;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 20px;
+  border-radius: 1px;
+  padding: 15px;
+  text-decoration: none;
+ }
+
+ .header2 {
+    background-color: #fff;
+    height:  65px;
+    text-align: left;
+}
+
+ .project {
+  background-color: #d4f7e8;
+  color: #ffffff;
+  padding-bottom: 65px;
+
+ }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: left;
+}
